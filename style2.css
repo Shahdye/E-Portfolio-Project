@@ -46,7 +46,7 @@ li {
 }
 
 .text-purple {
-  color: #6030b1;
+  color: #ff7048;
 }
 
 nav {
@@ -71,7 +71,7 @@ nav {
 }
 
 .nav__link--anchor--primary {
-  background-color: #6030b1;
+  background-color: #000000;
   padding: 8px 20px;
   border-radius: 50px;
   color: white;
@@ -79,12 +79,12 @@ nav {
 }
 
 .nav__link--anchor--primary:hover {
-  background-color: #5d3eff;
+  background-color: #ff7048;
 }
 
 .personal__logo {
   font-size: 24px;
-  color: #6030b1;
+  color: #ff7048;
   margin: 0 12px;
   font-weight: bold;
 }
@@ -98,8 +98,10 @@ nav {
 .about-me__info--container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .about-me__picture--mask {
@@ -123,4 +125,11 @@ nav {
 .about-me__info--para {
   font-size: 20px;
   margin: 28px;
+}
+
+.about-me__links {
+  font-size: 20px;
+  color: #000000;
+  text-decoration: none;
+  padding: 0 16px;
 }

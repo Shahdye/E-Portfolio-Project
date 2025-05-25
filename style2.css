@@ -39,6 +39,10 @@ li {
   flex: 1;
 }
 
+.container {
+  padding: 50px 0;
+}
+
 .row {
   width: 100%;
   max-width: 800px;
@@ -47,6 +51,14 @@ li {
 
 .text-purple {
   color: #ff7048;
+}
+
+section:nth-child(even) {
+  background-color: #f8f8f8;
+}
+
+.section__title {
+  margin-bottom: 20px;
 }
 
 nav {
@@ -95,6 +107,11 @@ nav {
   flex-direction: column;
 }
 
+.about-me__info {
+  display: flex;
+  flex-direction: column;
+}
+
 .about-me__info--container {
   display: flex;
   flex-direction: column;
@@ -133,3 +150,34 @@ nav {
   padding: 0 16px;
 }
 
+.about-me__img--container {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+.about-me__img {
+  width: 100%;
+  padding-top: 24px;
+}
+
+.language__img {
+  width: 100%;
+  max-width: 100px;
+}
+
+.language{
+    width: 25%;
+}
+
+.language__img--wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 16px;
+}
+
+.language__list{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
